@@ -3,14 +3,14 @@ from telebot import types
 import time
 import datetime
 
-API_TOKEN = '8084717420:7113971264:AAG0sB7DR-S-S13qNrm6IaCfzx9J9XpjC7s'
+API_TOKEN = '8214716624:AAEPtxKLSVpBM5VDpBwcCxEH64wmavPYo5c'
 bot = telebot.TeleBot(API_TOKEN)
 
 # Set your logger group chat_id here
-LOGGER_GROUP_CHAT_ID = '-1002046320443'
+LOGGER_GROUP_CHAT_ID = '-1002603845415'
 
 # Set the bot owner's user ID (replace with your actual user ID)
-OWNER_USER_ID = '7520092354'
+OWNER_USER_ID = '6827299764'
 
 # Store user bio warnings and interactions
 user_bio_warnings = {}
