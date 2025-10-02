@@ -30,8 +30,8 @@ def handle_start_command(message):
     # Attractive welcome message with buttons
     photo_url = 'https://graph.org/file/6c0db28a848ed4dacae56-93b1bc1873b2494eb2.jpg'  # Replace with actual image URL
     markup = types.InlineKeyboardMarkup()
-    markup.add(types.InlineKeyboardButton("Owner", url="https://t.me/TSGCODER"))
-    markup.add(types.InlineKeyboardButton("Support", url="https://t.me/matalbi_duniya"))
+    markup.add(types.InlineKeyboardButton("Owner", url="https://t.me/FZ_CREATOR"))
+    markup.add(types.InlineKeyboardButton("Support", url="https://t.me/BOT_X_SUPPORT"))
     markup.add(types.InlineKeyboardButton("Start Exploring", callback_data="explore"))
 
     welcome_message = """
@@ -41,7 +41,7 @@ def handle_start_command(message):
 
     🌟 Here's what I can do for you:
     - [Add me to your group for bio link warning detection]
-    - [This bot is completely safe, created by TEAM SANKI]
+    - [This bot is completely safe, created by FZ CREATOR ]
 
     Tap on the buttons below to get started:
 
